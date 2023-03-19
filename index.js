@@ -14,8 +14,5 @@ else (rideLength > 2500);{
 }
 function ternaryCheckCity(city){
 if(city === 'NYC')
-return 'Ok, sounds good.' 
-else if(city === undefined)
-return 'No go,';
+return 'NYC' ? 'Ok sounds good.' : 'No go.'
 }
-function  switchOnCharmFromTip() {}
