@@ -12,11 +12,7 @@ else (rideLength > 2500);{
   return 'No can do.'
 }
 }
-function ternaryCheckCity(NYC) {
-  return (NYC ? 'OK, sounds good.' : 'No go.');
+function ternaryCheckCity(city, NYC){
+  if(city = NYC)
+  return 'Ok, sounds good';
 }
-
-console.log(ternaryCheckCity(true));
-
-console.log(ternaryCheckCity(false));
-
