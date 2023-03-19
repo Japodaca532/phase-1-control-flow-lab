@@ -15,6 +15,6 @@ else (rideLength > 2500);{
 function ternaryCheckCity()
  const city = NYC;
  let isDest;
- if (city = NYC) {
+ if (destination = NYC) {
   isDest = 'Ok. sounds good.'
  }
