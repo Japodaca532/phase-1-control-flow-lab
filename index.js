@@ -17,6 +17,6 @@ function ternaryCheckCity(NYC) {
   return (NYC ? 'Ok, sounds good.' : 'No go.');
 }
 function ternaryCheckCity(city){
-let destination = city 
-return (city ? 'No go.' : 'Ok, sounds good.')
+let destination = city
+return 'No go.'
 }
