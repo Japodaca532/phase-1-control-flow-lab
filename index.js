@@ -15,6 +15,9 @@ else (rideLength > 2500);{
 function ternaryCheckCity(NYC){
   return 'Ok, sounds good.'
 }
+function ternaryCheckCity(Boston){
+  return 'No go.'
+}
 function switchOnCharmFromTip(generous){
  return 'Thank you so much.'
 }
