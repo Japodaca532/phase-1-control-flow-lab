@@ -13,7 +13,7 @@ else (rideLength > 2500);{
 }
 }
 function ternaryCheckCity(city){
-  let city = 'NYC'
+  let city = 'NYC';
   const result = city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
 
