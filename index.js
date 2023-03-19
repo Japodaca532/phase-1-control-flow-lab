@@ -14,5 +14,7 @@ else (rideLength > 2500);{
 }
 function ternaryCheckCity(city){
 if(city === 'NYC')
-return 'NYC'?'Ok, sounds good.' : 'No go.'
+return 'Ok, sounds good.' 
+if(city === null)
+return 'No go.'
 }
