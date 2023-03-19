@@ -21,5 +21,3 @@ console.log(ternaryCheckCity(true));
 
 console.log(ternaryCheckCity(false));
 
-
-console.log(ternaryCheckCity(null));
