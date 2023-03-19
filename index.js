@@ -12,9 +12,7 @@ else (rideLength > 2500);{
   return 'No can do.'
 }
 }
-function ternaryCheckCity()
- const city = NYC;
- let isDest;
- if (destination = NYC) {
-  isDest = 'Ok. sounds good.'
- }
+function ternaryCheckCity(city){
+if(city === 'NYC')
+return 'Ok, sounds good.'
+}
