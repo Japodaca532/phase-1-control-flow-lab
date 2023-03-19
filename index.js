@@ -12,17 +12,6 @@ else (rideLength > 2500);{
   return 'No can do.'
 }
 }
-function ternaryCheckCity(NYC){
-  if (city = NYC ){
- return 'Ok, sounds good.'
-} 
-else if (city != NYC){
-  return 'No go'
-}
-}
-function switchOnCharmFromTip(generousTip){
- return 'Thank you so much.'
-}
-function switchOnCharmFromTip(){
-  // Write your code here!
-} 
+function ternaryCheckCity(city) {
+  const result = city === 'NYC' ? 'Ok, sounds good.' : 'No go.'}
+  
