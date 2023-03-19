@@ -15,6 +15,9 @@ else (rideLength > 2500);{
 function ternaryCheckCity(NYC){
   return 'Ok, sounds good.'
 }
+function switchOnCharmFromTip(generous){
+ return 'Thank you so much.'
+}
 function switchOnCharmFromTip(){
   // Write your code here!
 } 
