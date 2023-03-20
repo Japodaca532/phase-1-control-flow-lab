@@ -13,8 +13,8 @@ else (rideLength > 2500);{
 }
 }
 function ternaryCheckCity(city){
-  if (city === 'NYC')
-  return 'Ok, sounds good.'
+  const cityMessage = city == 'NYC' ? 'Ok, sounds good.' : 'No go.';
+  return cityMessage
 }
 
   const tip = 'generous';
